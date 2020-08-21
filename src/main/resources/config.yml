@@ -1,0 +1,28 @@
+
+#Minage --> False = Server faction // True = Server Minage
+#command /reserve --> False = Désactivée // True = Activée
+
+Minage: true
+command: true
+#SqlDataBase connection
+mysql:
+  base: 'Minage'
+  table: 'invs'
+  address: 'localhost'
+  user: 'root'
+  mdp: ''
+
+#RedisDataBase connection
+redis:
+  host: 'localhost'
+  mdp: ''
+
+#Id des blocks que les joueurs pourront mettre dans  leur reserve
+white:
+  - 14
+  - 15
+  - 16
+  - 21
+  - 56
+  - 73
+  - 129

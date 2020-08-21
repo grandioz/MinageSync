@@ -1,0 +1,8 @@
+name: Minage
+main: fr.grandoz.minage.Main
+version: ${project.version}
+author: grandoz
+commands:
+  reserve:
+    description: Ouvrir le menu des minerais
+    permission: minage.use
